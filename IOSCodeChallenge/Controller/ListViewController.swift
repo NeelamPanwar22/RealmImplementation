@@ -51,7 +51,8 @@ final class ListViewController: UIViewController {
     
     //Set Up Navigation
     func setUpNavigation() {
-        navigationItem.title =  "List"
+        navigationItem.title = NSLocalizedString("List", comment: "")
+
         self.navigationController?.navigationBar.barTintColor = .white
         self.navigationController?.navigationBar.isTranslucent = false
     }

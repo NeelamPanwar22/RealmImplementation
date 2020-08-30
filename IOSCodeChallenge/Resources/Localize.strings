@@ -7,3 +7,7 @@
 */
 
 "List" = "List" ;
+"JSON parsing failure" = "JSON parsing failure" ;
+"Forbidden" = "Forbidden";
+"Internal Server Error" = "Internal Server Error" ;
+"Session Expire" = "Session Expire" ;

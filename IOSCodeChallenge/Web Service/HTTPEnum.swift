@@ -28,10 +28,10 @@ enum APIError: Error, LocalizedError {
     
     private var message:String {
         switch self {
-        case .jsonParsingFailure: return "JSON parsing failure"
-        case .forbidden: return "Forbidden"
-        case .internalServerError: return "Internal Server Error"
-        case .sessionExpire: return "Session Expire"
+        case .jsonParsingFailure: return NSLocalizedString("JSON parsing failure", comment: "")
+        case .forbidden: return  NSLocalizedString("Forbidden", comment: "")
+        case .internalServerError: return NSLocalizedString("Internal Server Error", comment: "")
+        case .sessionExpire: return NSLocalizedString("Session Expire", comment: "")
         case .clientError(let message): return message
         case .underLying(let error): return error.localizedDescription
         }

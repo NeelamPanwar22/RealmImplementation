@@ -16,7 +16,6 @@
 		84300D0E24FAC5E7000F08CC /* ReachablityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84300D0D24FAC5E7000F08CC /* ReachablityManager.swift */; };
 		84300D1024FAC6C5000F08CC /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84300D0F24FAC6C5000F08CC /* HttpRequest.swift */; };
 		84300D1224FAC6E2000F08CC /* Optionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84300D1124FAC6E2000F08CC /* Optionals.swift */; };
-		849ECB5C24F8EF7A0002AE4B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849ECB5B24F8EF7A0002AE4B /* Constants.swift */; };
 		84AE53F024F779B000F3103F /* HTTPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE53E924F779B000F3103F /* HTTPConstants.swift */; };
 		84AE53F124F779B000F3103F /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE53EA24F779B000F3103F /* HTTPHandler.swift */; };
 		84AE53F324F779B000F3103F /* HTTPEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE53EC24F779B000F3103F /* HTTPEnum.swift */; };
@@ -40,7 +39,6 @@
 		84300D0D24FAC5E7000F08CC /* ReachablityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachablityManager.swift; sourceTree = "<group>"; };
 		84300D0F24FAC6C5000F08CC /* HttpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
 		84300D1124FAC6E2000F08CC /* Optionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optionals.swift; sourceTree = "<group>"; };
-		849ECB5B24F8EF7A0002AE4B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		84AE53E924F779B000F3103F /* HTTPConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPConstants.swift; sourceTree = "<group>"; };
 		84AE53EA24F779B000F3103F /* HTTPHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHandler.swift; sourceTree = "<group>"; };
 		84AE53EC24F779B000F3103F /* HTTPEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPEnum.swift; sourceTree = "<group>"; };
@@ -116,7 +114,6 @@
 		84300D0224FA463E000F08CC /* Helper Classes */ = {
 			isa = PBXGroup;
 			children = (
-				849ECB5B24F8EF7A0002AE4B /* Constants.swift */,
 				84300D0524FAAC6D000F08CC /* DBManager.swift */,
 				84300D0924FAC3F1000F08CC /* Reuseable.swift */,
 				84300D0B24FAC457000F08CC /* ImageView+Extension.swift */,
@@ -302,7 +299,6 @@
 				84300D0E24FAC5E7000F08CC /* ReachablityManager.swift in Sources */,
 				84300D1024FAC6C5000F08CC /* HttpRequest.swift in Sources */,
 				84E7084924F570730078F863 /* AppDelegate.swift in Sources */,
-				849ECB5C24F8EF7A0002AE4B /* Constants.swift in Sources */,
 				84AE53F124F779B000F3103F /* HTTPHandler.swift in Sources */,
 				84E7085F24F582320078F863 /* ListTableViewCell.swift in Sources */,
 				84AE53F024F779B000F3103F /* HTTPConstants.swift in Sources */,
